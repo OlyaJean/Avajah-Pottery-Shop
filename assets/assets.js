@@ -5,6 +5,8 @@ import decor4 from './../assets/decor4.jpeg'
 import decor5 from './../assets/decor5.jpeg'
 import decor6 from './../assets/decor6.jpeg'
 import decor7 from './../assets/decor7.jpeg'
+import decor8 from './../assets/decor8.jpeg'
+import decor9 from './../assets/decor9.jpeg'
 import dish1 from './../assets/dish1.jpeg'
 import dish2 from './../assets/dish2.jpeg'
 import dish3 from './../assets/dish3.jpeg'
@@ -86,7 +88,7 @@ export const items = [
         "price": 268    
        }, 
        {"id":11,
-        "img":dish3,
+        "img":decor8,
         "description":"Ribbon Dance Vase",
         "price": 268    
        }, 
@@ -114,5 +116,10 @@ export const items = [
         "img":jewelryHolder2,
         "description":"Ribbon Dance Vase",
         "price": 268    
-       },                        
+       },  
+       {"id":17,
+        "img":decor9,
+        "description":"Ribbon Dance Vase",
+        "price": 268    
+       },                       
 ] 

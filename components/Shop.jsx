@@ -1,14 +1,12 @@
 import { items } from '@/assets/assets'
-import Image from 'next/image'
 import React from 'react'
+import ShopList from './ShopList'
 
 const Shop = () => {
+    
   return (
-    <div className='body-image rounded-md w-fit flex flex-col gap-5 p-5'>
-      <Image width={150} src={items[0].img} alt=''/>
-      <p className='text-center'>{items[0].description}</p>
-      <hr />
-      <p className='text-center'>$ {items[0].price}</p>
+    <div className='flex flex-wrap px-10 py-10 gap-5 md:gap-10 justify-center'>
+      {items.map((item,index)=>{ return <ShopList key={index} img={item.img} description={item.description} price={item.price}/>})}
     </div>
   )
 }
